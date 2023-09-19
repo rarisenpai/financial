@@ -49,7 +49,7 @@ class MorganStanleySpider(scrapy.Spider):
 
                 # Click the button
                 self.move_and_click(see_more_button)
-                time.sleep(5)
+                time.sleep(3)
             except:
                 break
         time.sleep(10)
